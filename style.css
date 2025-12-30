@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.nav-item {
+    width: 110px;
+    text-align: center;
+}
+
+.NVN {
+    width: 150px;
+}
+
+
+.btn {
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 12.5px;
+    width: 160px;
+
+}
+
+
+.logo-text-hold {
+    font-family: "Lily Script One", system-ui;
+    font-weight: bold;
+
+}
+
+.Section-C {
+    background-color: #0f0f0f;
+}
+
+.custom-letter-spacing {
+    letter-spacing: 5px;
+}
+
+.ISL {
+    text-transform: uppercase;
+}
+
+.btn-dark {
+    border-color: white;
+}
+
+.SecDp2 {
+    background-color: #0f0f0f;
+}
+
+.Head img {
+    height: 230px;
+}
+
+.dummy {
+    border-color: #198754;
+    background-color: #198754;
+}
+
+.dummy:hover {
+    transition: 0.2s;
+    background-color: transparent;
+}
+
+
+.yes {
+    text-transform: uppercase;
+    font-size: x-small;
+
+}
+
+
+.khubhai {
+    font-family: "Playfair Display", serif;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
+.copyright {
+    background-color: #000;
+    color: #e7f1f9;
+    font-size: medium;
+    padding: 10px 30px;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .Koinhi {
+        justify-content: space-between;
+    }
+
+    .Exls {
+        align-items: center;
+    }
+
+}
+
+@media (min-width: 0px) and (max-width: 767.98px) {
+
+    .notthistime {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .lop {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .set {
+        columns: 5;
+    }
+
+    .copyright {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+
+
+
+}
